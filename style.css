@@ -295,47 +295,6 @@ section{
     background: none;
     justify-content: right;
 }
-@media (max-width:991px){
-    html{
-        font-size: 55%;
-    }
-
-    .header{
-        padding: 2rem;
-    }
-
-    section{
-        padding: 2rem;
-    }
-}
-
-@media (max-width:450px){
-    html{
-        font-size: 50%;
-    }
-    .heading{
-        font-size: 2.5rem;
-    }
-    .faqs .content2 .text2 p{
-        font-size: 2rem;
-    }
-}
-@media (max-width:425px){
-    html{
-        font-size: 40%;
-    }
-    .heading{
-        font-size: 2rem;
-    }
-    .faqs .content2 .text2 p{
-        font-size: 2rem;
-    }
-    .services{
-        font-size: 0.5rem;
-        margin-bottom: 5%;
-    }
-}
-
 .footer{
     background-color: black;
     position: relative;
@@ -381,6 +340,118 @@ section{
     color: var(--dirty-white);
 }
 
+
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding: 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:570px){
+    html{
+        font-size: 40%;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .faqs .content2 .text2 p{
+        font-size: 2rem;
+    }
+    .services{
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+    .services img{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+@media (max-width:430px){
+    html{
+        font-size: 50%;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+    .faqs .content2 .text2 p{
+        font-size: 2rem;
+    }
+    .services{
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:425px){
+    html{
+        font-size: 40%;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .faqs .content2 .text2 p{
+        font-size: 2rem;
+    }
+    .services{
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width:400px){
+    html{
+        font-size: 20%;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .services{
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+    .faqs .content2 .text2 p{
+        font-size: 2rem;
+    }
+}
+@media (max-width:390px){
+    html{
+        font-size: 20%;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .services{
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+    .faqs .content2 .text2 p{
+        font-size: 2rem;
+    }
+}
+@media (max-width:360px){
+    html{
+        font-size: 20%;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .services{
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+    .faqs .content2 .text2 p{
+        font-size: 2rem;
+    }
+}
 
 @media (max-width:350px){
     html{
